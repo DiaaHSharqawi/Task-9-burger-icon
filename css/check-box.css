@@ -1,0 +1,43 @@
+#burger-icon {
+  display: none;
+}
+#burger-icon:checked ~ label[for=burger-icon] span:first-child {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+#burger-icon:checked ~ label[for=burger-icon] span:nth-child(2) {
+  display: none;
+}
+#burger-icon:checked ~ label[for=burger-icon] span:last-child {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+#burger-icon ~ label[for=burger-icon] {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  gap: 25px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+#burger-icon ~ label[for=burger-icon] span {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 20px;
+  border-radius: 25px;
+  background-color: #fefefc;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#burger-icon ~ label[for=burger-icon] span:first-child {
+  top: 0%;
+}
+#burger-icon ~ label[for=burger-icon] span:nth-child(2) {
+  top: 50%;
+}
+#burger-icon ~ label[for=burger-icon] span:last-child {
+  top: 100%;
+}/*# sourceMappingURL=check-box.css.map */

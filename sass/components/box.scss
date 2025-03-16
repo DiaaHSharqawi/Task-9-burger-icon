@@ -1,0 +1,9 @@
+@import "./../shared/colors.scss";
+@import "./../shared/flex-prefect-center.scss";
+
+#box {
+  width: 500px;
+  height: 500px;
+  background-color: $dark-cyan-color;
+  @include flex-perfect-center;
+}
