@@ -1,7 +1,7 @@
 #box {
   width: 500px;
   height: 500px;
-  background-color: #028284;
+  background: repeating-linear-gradient(to left, #028284 20px, #027e84 80px);
   display: flex;
   justify-content: center;
   align-items: center;

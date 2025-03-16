@@ -24,7 +24,7 @@ section {
 #box {
   width: 500px;
   height: 500px;
-  background-color: #028284;
+  background: repeating-linear-gradient(to left, #028284 20px, #027e84 80px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,38 +38,43 @@ section {
   transform: translate(-50%, -50%) rotate(45deg);
 }
 #burger-icon:checked ~ label[for=burger-icon] span:nth-child(2) {
-  display: none;
+  opacity: 0;
 }
 #burger-icon:checked ~ label[for=burger-icon] span:last-child {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+#burger-icon:not(:checked) ~ label[for=burger-icon] span:first-child {
+  top: 0%;
+  transform: translate(-50%, 0) rotate(0deg);
+}
+#burger-icon:not(:checked) ~ label[for=burger-icon] span:nth-child(2) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 1;
+}
+#burger-icon:not(:checked) ~ label[for=burger-icon] span:last-child {
+  top: 100%;
+  transform: translate(-50%, -100%) rotate(0deg);
+}
 #burger-icon ~ label[for=burger-icon] {
   position: relative;
   width: 200px;
   height: 150px;
-  gap: 25px;
-  transition: transform 0.3s ease;
   cursor: pointer;
+  transition: transform 0.3s ease;
 }
 #burger-icon ~ label[for=burger-icon] span {
   display: block;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 180px;
   height: 20px;
   border-radius: 25px;
   background-color: #fefefc;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-#burger-icon ~ label[for=burger-icon] span:first-child {
-  top: 0%;
+  transition: transform 0.1s linear, opacity 0.1s ease;
 }
 #burger-icon ~ label[for=burger-icon] span:nth-child(2) {
-  top: 50%;
-}
-#burger-icon ~ label[for=burger-icon] span:last-child {
-  top: 100%;
+  transition: opacity 0.1s ease;
 }/*# sourceMappingURL=styles.css.map */
