@@ -1,0 +1,13 @@
+@import "./../shared/colors.scss";
+@import "./../shared/flex-prefect-center.scss";
+
+#box {
+  width: 500px;
+  height: 500px;
+  background: repeating-linear-gradient(
+    to left,
+    $dark-cyan-color 20px,
+    $cyan-color 80px
+  );
+  @include flex-perfect-center;
+}
