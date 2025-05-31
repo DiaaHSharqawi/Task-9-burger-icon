@@ -1,4 +1,4 @@
-# Task-9-burger-icon
+# Burger-Icon
 
 This repository contains the implementation of a burger icon using HTML, CSS, and SCSS.
 
@@ -16,7 +16,7 @@ The burger icon is a commonly used UI element in modern web design, especially f
 
 ## Demo
 
-You can see a live demo of the burger icon [here](https://diaahsharqawi.github.io/Task-9-burger-icon/).
+You can see a live demo of the burger icon [here](https://diaahsharqawi.github.io/Burger-Icon/).
 
 Click the icon to view its animation in action.
 
@@ -24,7 +24,7 @@ Click the icon to view its animation in action.
 
 - **HTML**: Markup language for creating web pages.
 - **CSS**: Cascading Style Sheets for styling the web pages.
-- **SCSS**: Sassy CSS, a preprocessor scripting language that is compiled into CSS. Used [**Live Sass Compiler**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension in VS Code to compile SCSS files.
+- **SCSS**: Sassy CSS, a preprocessor scripting language that is compiled into CSS. Used [**Live Sass Compiler**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) extension for compiling.
 
 ## Setup and Installation
 
@@ -33,13 +33,13 @@ To set up and run this project locally, follow these steps:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/DiaaHSharqawi/Task-9-burger-icon.git
+    git clone https://github.com/DiaaHSharqawi/Burger-Icon.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd Task-9-burger-icon
+    cd Burger-Icon
     ```
 
 3. **Open the `index.html` file in a web browser to see the burger icon in action.**
