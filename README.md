@@ -16,7 +16,7 @@ The burger icon is a commonly used UI element in modern web design, especially f
 
 ## Demo
 
-You can see a live demo of the burger icon [here](https://diaahsharqawi.github.io/Burger-Icon/).
+You can see a live demo of the burger icon [here](https://itg-software-front-end-internship.github.io/Burger-Icon/).
 
 Click the icon to view its animation in action.
 
